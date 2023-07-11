@@ -19,6 +19,13 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- 避免控件会顶到状态栏上 -->
+        <!--<item name="android:fitsSystemWindows">true</item>-->
+    </style>
+
     <style name="Theme.MultiTypeAdapter.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MultiTypeAdapter.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
